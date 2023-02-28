@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+nav{
+    background-color: #ffffff;
+}
+
+#iema-logo{
+    width: 84px;
+    height: 51px;
+    padding: 15px 0px 15px 0px;
+    cursor: pointer;
+}
+
+h1{
+    font-weight: bold;
+}
+html{
+    min-height: 100%;
+    background-image: url(imagens/Meteor\ \(1\).svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+#user-png{
+    height: 147px;
+    width: 147px;
+}
+
+.nav-list a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.nav-list ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.container-portal{
+    margin: 7%;
+    display: flex;
+    flex-direction: column;
+    width: 535px;
+    color: white;
+}
+.portal-1{
+    display: flex;
+    justify-content: space-between;
+    font-size: 48px;
+}
+.portal p{
+    font-size: 18px;
+    text-align: justify;
+}
+.container-login{
+    margin: -5% 16%;
+    display: flex;
+    flex-direction: column;
+}
+.login-button-1{
+    background-color: #0D9AD8;
+    width: 191px;
+    height: 73px;
+    border: none;
+    border-radius: 6px;
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+.login-button-1 a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+.login-button-2{
+    background-color: #EE2135;
+    width: 191px;
+    height: 73px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+.login-button-2 a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
